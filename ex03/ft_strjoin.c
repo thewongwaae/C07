@@ -6,11 +6,10 @@
 /*   By: hwong <hwong@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/04 10:49:18 by hwong             #+#    #+#             */
-/*   Updated: 2022/09/06 11:50:43 by hwong            ###   ########.fr       */
+/*   Updated: 2022/09/06 12:19:18 by hwong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <stdlib.h>
 
 char	str_len(char *str)
@@ -78,6 +77,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 }
 
 /*
+#include <stdio.h>
 int	main(void)
 {
 	char	**strs;
@@ -99,5 +99,26 @@ int	main(void)
 	free(result);
 	result = ft_strjoin(4, strs, separator);
 	printf("Result with size = %d : %s\n", 4, result);
+}
+*/
+/*
+#include <stdio.h>
+int	main(void)
+{
+	int		size;
+	char	*ret;
+	char	*sep;
+
+	char *strs[4] = {
+		"Hello",
+		"How",
+		"are",
+		"you"};
+	sep = ", ";
+	size = 4;
+	ret = ft_strjoin(size, strs, sep);
+	printf("%s", ret);
+	free(ret);
+	return (0);
 }
 */

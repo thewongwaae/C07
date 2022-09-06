@@ -6,11 +6,11 @@
 /*   By: hwong <hwong@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/06 09:02:16 by hwong             #+#    #+#             */
-/*   Updated: 2022/09/06 12:03:51 by hwong            ###   ########.fr       */
+/*   Updated: 2022/09/06 12:17:32 by hwong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include <stdlib.h>
 
 int	in_string(char c, char *charset)
 {
